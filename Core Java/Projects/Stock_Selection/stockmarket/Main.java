@@ -14,6 +14,12 @@ public class Main {
 		int choice;
 		
 		do {
+			System.out.println("1. Display Stocks");
+			System.out.println("2. Display Performace");
+			System.out.println("3. Display Search Stock");
+			System.out.println("4. Display Sorted Stocks");
+			System.out.println("5. Display ROI");
+			
 			System.out.println("Enter Your Choice");
 			choice=scanner.nextInt();
 			scanner.nextLine();
