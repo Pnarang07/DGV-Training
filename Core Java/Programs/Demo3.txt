@@ -1,0 +1,64 @@
+import java.util.Scanner;
+
+class Player{
+
+private String Name;
+private String HighScore;
+private String Team
+
+
+public String getName(){
+return Name;
+}
+
+public setName(String n){
+
+name=n;
+}
+
+public String getHighScore(){
+return HighScore;
+}
+
+
+public setHighScore(int score){
+
+HighScore=score;
+}
+
+public String getTeam(){
+return team;
+}
+
+public setTeam(String t){
+
+Team=t;
+}
+}
+
+
+class Demo3{
+
+public static void main(){
+
+Player p=new Player();
+
+Scanner sc=new Scanner(System.in);
+
+System.out.println("Enter Your Name +" "+ Enter Your High Score +" "+Enter Your Team");
+String na=sc.nextLine();
+p.setName(na);
+int hs=sc.nextInt();
+p.setHighScore(hs);
+string st=sc.nextLine();
+p.setTeam(st);
+
+
+
+System.out.println(p.getName());
+System.out.println(p.getHighScore());
+System.out.println(p.getTeam());
+
+}
+
+}
