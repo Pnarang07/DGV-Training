@@ -51,6 +51,9 @@ public class Main {
 			scanner.nextLine();
 			stockcontroler.calculateRoi(roiStock,time);
 		}
+               default:{
+                        System.out.println("You have Exited");
+                        }
 	}
 }
 		while(choice!=0);
