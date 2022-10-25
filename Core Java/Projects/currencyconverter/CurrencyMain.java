@@ -11,7 +11,7 @@ public class CurrencyMain {
 		int choice;
 		do {
 			System.out.println("Select Currency From Given List");
-			System.out.println("1.Dollar" + " " + "2.Euro" + " " + "3.Yen" + " " + "4.Pound" + " " + "5.Canadian Dollar" + " " +"0.Exit");
+			System.out.println("1.Dollar" + " " + "2.Euro" + " " + "3.Yen" + " " + "4.Pound" + " " + "5.Canadian Dollar" + " " + "6.India" + " " + "0.Exit");
 			
 			choice=scanner.nextInt();	
 			
