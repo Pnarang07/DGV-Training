@@ -2,8 +2,8 @@ package quizapplication;
 
 public class Quiz {
 	
-	String name;
-	int score;
+	private String name;
+	private int score;
 	
 	
 	public Quiz(String name, int score) {
