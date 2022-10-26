@@ -2,10 +2,10 @@ package quizapplication;
 
 public class Quiz {
 	
-	String question;
-	String option1;
-	String option2;
-	int answer;
+	private String question;
+	private String option1;
+	private String option2;
+	private int answer;
 	
 	public Quiz(String question, String option1, String option2,int answer) {
 		this.question = question;
