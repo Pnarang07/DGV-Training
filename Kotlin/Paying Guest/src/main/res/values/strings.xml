@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PayingGuest</string>
+
+
+    <string name="selected_item">Selected item:</string>
+
+    <string-array name="Languages">
+        <item>Boys</item>
+        <item>Girls</item>
+    </string-array>
+</resources>
